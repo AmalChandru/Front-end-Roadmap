@@ -1,0 +1,6 @@
+1) scripts key in package.json
+2) extistng examples: preinstall, prepublish, start
+3) custom scripts: we can make use of npm run
+
+
+
