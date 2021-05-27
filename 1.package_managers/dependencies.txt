@@ -1,0 +1,5 @@
+1) keep installed packages inside dependencies key section on package.json
+2) We don't need ceratin packages like babel or webpack which are used in dev phase, when we are in production we can put these details in a seperate key called devDependencies by
+ npm install webpack --save-dev
+3) peerDependencies - we will use only if we are creating a new npm package. we can include the package needed for our package to run with in peerDependencies key in package.json
+
