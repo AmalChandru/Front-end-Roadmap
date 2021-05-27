@@ -1,0 +1,4 @@
+A package named 'n' can be used to switch between various node packages. In case of windows it is nvm
+Commands
+-> sudo npm install -g n //for installing n
+-> sudo n //to select from multiple versions of node

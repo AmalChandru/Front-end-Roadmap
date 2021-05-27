@@ -1,0 +1,2 @@
+1)npm install 'package_name' will fetch source code of the package from npm website
+2)npm view package_name lists tarball file and other details. when we use npm install npm goes to the tarball link and download extract and save.

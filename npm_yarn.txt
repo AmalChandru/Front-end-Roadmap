@@ -1,0 +1,7 @@
+npm--------->
+1) npm is the package manager of node
+2) npm can acts a CLI tool for create, manage, update, remove packages in our Node application
+3) Backed by microsoft
+yarn-------->
+1) Backed by facebook
+2) A couple of years ago npm was slow, no support for lock files, no caching strategies.(There started npm - yarn competition). Now both of them same now a days.

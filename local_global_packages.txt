@@ -1,0 +1,5 @@
+1) npm i package_name : has a local scope hence local module
+2) Global packages is mainly used in CLI
+example: create-react-app, cypress
+npm i package_name -global / npm i package_name -g
+3) npm root -g shows global modules installed in our system

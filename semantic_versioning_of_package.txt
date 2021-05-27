@@ -1,0 +1,5 @@
+1) MAJOR.MINOR.PATCH
+2) MAJOR gets changed only when there is a compatible issue
+3) MINOR when you add functionality in a backwards compatible
+4) PATCH bug fixes
+5) npm follows semantic versioning// Some developers don't follow this, it has so much hatred amoung developers.
