@@ -1,0 +1,6 @@
+1) Created from npm V5
+2) npx helps us to run global packages as local packages example: npx cre
+ ate-react-app
+3) We can run global binaries using npx, it installs execute and remove it.
+
+
