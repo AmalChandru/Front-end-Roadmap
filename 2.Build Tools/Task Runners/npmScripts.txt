@@ -1,0 +1,60 @@
+What are NPM Scripts?
+
+NPM scripts are scripts used to automate repetitive tasks like
+minifying Cascading Style Sheets (CSS) and JavaScript (JS) files,
+deleting temporary files and folders, etc
+
+The Scripts Object in package.json
+
+NPM scripts are written as usual JSON key-value pairs where the key
+is the name of the script and the value contains the script you want
+to execute. It resides with in scripts object in package.json file.
+
+Special Scripts
+
+There are scripts with names that NPM recognizes and attaches special
+meaning to.
+Example: npm install, npm prepublish
+More - https://docs.npmjs.com/cli/v7/using-npm/scripts
+
+Custom Scripts
+
+npm run --silent script_name
+
+Calling NPM Scripts Within Other NPM Scripts
+
+Example:
+
+"scripts": {
+    "say-hello": "echo 'Hello World'",
+    "awesome-npm": "npm run say-hello && echo 'echo NPM is awesome!'"
+}
+We can use bash scripts also
+
+"scripts": {
+    ...
+    "clean": "rm -r dist && mkdir dist",
+    "build": "npm run clean && webpack"
+}
+
+Calling Shell and Node Scripts
+
+1) Create a file called hello.sh in your root directory
+
+#!/usr/bin/env bash
+
+# filename: hello.sh
+echo "What's your name?"
+read name
+echo "Hello there, $name!"
+
+2) Update package.json
+
+"scripts": {
+            ..........................
+            bash-hello": "bash hello.sh"
+            ........................... }
+3) Run
+   npm run bash-hello
+We can also use JS scripts for the same the advantage
+is that this script will be platform independent since it uses node to run.
