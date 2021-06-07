@@ -1,0 +1,5 @@
+Prettier is an opinionated code formatter with support for:
+
+JavaScript, JSX, Angular, Vue, Flow, TypeScript
+
+Prettier enforces a consistent code style
