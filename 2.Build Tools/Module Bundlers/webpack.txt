@@ -1,0 +1,21 @@
+Basically we have the following pages
+    1./homepage
+    Will be used to navigate to the following pages
+        2./search
+        3./city/city_name (Destinations section) which is also using search page
+        4./individual_camp_name (Camps with Amazing Views, 
+                                Luxury Camping, 
+                                Camp day is an adenture day, 
+                                Turn up the campfire)
+        5./collection (Explore section)
+        6./partner-with-us (Join Now section)
+        7./why-book-with-hireacamp (Why book with us?)
+        8./camp-responsibility-page-during-covid-19
+        9./campzine
+        10./campzine/[slug]
+Select any pages of your choice from first five pages( top priority pages)
+Note:
+* You can access the listed pages by going to the section prescribed 
+  with in parentheses
+
+
