@@ -1,11 +1,18 @@
-function ExpenseItem() {
+import "./ExpenseItem.css";
+//props are basically objects consist of attributes to our component
+//key value pair
+function ExpenseItem(props) {
+  //Date object new for constructor
+  // const expenseDate = new Date(2021, 2, 28);
+  // const expenseTitle = "Car Insurance";
+  // const expenseAmount = 294.67;
   return (
-    <div>
-      <div>Date</div>
-      <div>
-        <h2>Title</h2>
+    <div className="expense-item">
+      <div>{props.date.toISOString()}</div>
+      <div className="expense-item__description">
+        <h2>{props.title}</h2>
+        <div className="expense-item__price">{props.amount}</div>
       </div>
-      <div>Amount</div>
     </div>
   );
 }
