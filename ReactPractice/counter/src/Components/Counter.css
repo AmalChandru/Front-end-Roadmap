@@ -1,0 +1,14 @@
+.counter {
+  color: blueviolet;
+  padding-left: 42%;
+  font-size: 5rem;
+}
+.content {
+  padding-left: 41%;
+  font-size: 2rem;
+}
+.btn {
+  margin-left: 46%;
+  width: 100px;
+  height: 50px;
+}

@@ -16,7 +16,6 @@ const ExpenseItem = (props) => {
 
   const clickHandler = () => {
     setTitle("Updated!");
-    console.log("Clicked!!");
   };
   return (
     <Card className="expense-item">
