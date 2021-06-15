@@ -4,9 +4,15 @@ import ExpenseForm from "./ExpenseForm";
 import "./NewExpense.css";
 
 const NewExpense = () => {
+  const onSaveExpenseData = (enteredExpenseData) => {
+    const expenseData = {
+      ...enteredExpenseData,
+      id: Math.random().toString(),
+    };
+  };
   return (
     <div className="new-expense">
-      <ExpenseForm></ExpenseForm>
+      <ExpenseForm onSaveExpenseData />
     </div>
   );
 };
